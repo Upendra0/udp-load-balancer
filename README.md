@@ -1,3 +1,3 @@
-# Collector-Load-Balancer
+# UDP-Load-Balancer
 
-The Load Balancer for the Crestel NatFlow/Syslog collector who works on the Transport to receive the traffic from Upstream
+This c++ application uses the cbpf to distribute udp packets to multple socket binded on same port.
